@@ -28,6 +28,12 @@ const handleUserInput = function (data) {
   if (data === 'd') {
     connection.write('Move: right');
   }
+  if (data === 'p') {
+    connection.write('Say: WAZZZZUUUUUUUP');
+  }
+  if (data === 'o') {
+    connection.write('Say: OU! a peice of candy, OU! a peice of candy');
+  }
 
 };
 
