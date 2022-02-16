@@ -14,14 +14,10 @@ const connect = function () {
   
   });
 
-
-
-
   conn.on('data', (data) => {
     console.log(data.toString());
   
   });
-
 
   return conn;
 };
