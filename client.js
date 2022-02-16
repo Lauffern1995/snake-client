@@ -10,7 +10,32 @@ const connect = function () {
 
   conn.on('connect', () => {
     console.log('Welcome to SNEK!!');
-    conn.write('Name: NCL');
+    conn.write('NAME: NCL');
+
+    // setInterval(() => {
+    //   conn.write('Move: up');
+      
+    // }, 500);
+    // setInterval(() => {
+    //   conn.write('Move: left');
+      
+    // }, 500);
+
+    // setInterval(() => {
+    //   conn.write('Move: right');
+      
+    // }, 500);
+
+    // setInterval(() => {
+    //   conn.write('Move: down');
+      
+    // }, 500);
+    
+
+    
+   
+    
+
 
   
   });
