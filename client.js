@@ -8,6 +8,16 @@ const connect = function () {
   // interpret incoming data as text
   conn.setEncoding("utf8");
 
+  conn.on('connect', () => {
+    console.log('Welcome to SNEK!!');
+    conn.write('Name: NCL');
+
+  
+  });
+
+
+
+
   conn.on('data', (data) => {
     console.log(data.toString());
   
